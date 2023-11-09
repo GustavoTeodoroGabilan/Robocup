@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #canvas {
+            border: 10px solid #000;
+            background-image: url(./images/arena.png);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Robocup</title>
+</head>
+
+<body>
+
+    <h1 class="vitoria"></h1>
+
+    <div class="placar">
+        <h2>The crown</h2>
+        <div class="vida1"></div>
+        <div class="rounds">
+            5
+        </div>
+        <div class="vida2"></div>
+        <h2>Caramelo</h2>
+    </div>
+    <div class="arena">
+        <img src="./images/WhatsApp Image 2023-10-24 at 13.46.16.png" alt="arquibancada" id="arq1">
+        <img src="./images/personagem1.png" alt="personagem 1" id="persona1">
+        <canvas id="canvas" width="700" height="700"></canvas>
+        <img src="./images/personagem2.png" alt="personagem 2" id="persona2">
+        <img src="./images/WhatsApp Image 2023-10-24 at 13.46.16.png" alt="arquibancada" id="arq2">
+    </div>
+
+    <script src="baseQuadrado.js"></script>
+    <script src="robos.js"></script>
+</body>
+
+</html>
